@@ -16,6 +16,8 @@
 		A499248C28E1AC06002EF219 /* TalkDeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A499248B28E1AC06002EF219 /* TalkDeckTests.swift */; };
 		A499249628E1AC06002EF219 /* TalkDeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A499249528E1AC06002EF219 /* TalkDeckUITests.swift */; };
 		A499249828E1AC06002EF219 /* TalkDeckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A499249728E1AC06002EF219 /* TalkDeckUITestsLaunchTests.swift */; };
+		A49924A528E1B6B8002EF219 /* ViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49924A428E1B6B8002EF219 /* ViewController+.swift */; };
+		A49924A728E1B9E4002EF219 /* RandomThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49924A628E1B9E4002EF219 /* RandomThemeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A499249128E1AC06002EF219 /* TalkDeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A499249528E1AC06002EF219 /* TalkDeckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkDeckUITests.swift; sourceTree = "<group>"; };
 		A499249728E1AC06002EF219 /* TalkDeckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkDeckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A49924A428E1B6B8002EF219 /* ViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+.swift"; sourceTree = "<group>"; };
+		A49924A628E1B9E4002EF219 /* RandomThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThemeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				A499247428E1AC03002EF219 /* AppDelegate.swift */,
 				A499247628E1AC03002EF219 /* SceneDelegate.swift */,
+				A49924A428E1B6B8002EF219 /* ViewController+.swift */,
+				A49924A628E1B9E4002EF219 /* RandomThemeModel.swift */,
 				A499247828E1AC03002EF219 /* ViewController.swift */,
 				A499247A28E1AC03002EF219 /* Main.storyboard */,
 				A499247D28E1AC05002EF219 /* Assets.xcassets */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49924A728E1B9E4002EF219 /* RandomThemeModel.swift in Sources */,
 				A499247928E1AC03002EF219 /* ViewController.swift in Sources */,
 				A499247528E1AC03002EF219 /* AppDelegate.swift in Sources */,
+				A49924A528E1B6B8002EF219 /* ViewController+.swift in Sources */,
 				A499247728E1AC03002EF219 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
